@@ -25,13 +25,12 @@
             <th>
                 @Html.DisplayNameFor(model => model.BaseSalary)
             </th>
-            <th></th>
         </tr>
     </thead>
-    <tbody>
+    <tbody class="success">
         @foreach (var item in Model)
         {
-        <tr>
+        <tr class="">
             <td>
                 @Html.DisplayFor(modelItem => item.Name)
             </td>
